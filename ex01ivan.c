@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int p, r, h, Ab, V;
+float p, r, h, Ab, V;
 
 int main(void){ 
 
-    int 
-    p=3;  //i couldn't manage to make it decimal it is pi=3.1416
+    
+    p=3.14;
     r=5;   
     h=7;   
     Ab= 2*p*r*h;
@@ -14,8 +14,8 @@ int main(void){
 
 
 
-  printf("The area of the cylinder is %i square units and the volume is %i cubic units" , Ab, V );
+  printf("The area of the cylinder is %.2f square units and the volume is %.2f cubic units" , Ab, V );
 
  return 0;
 
-} 
+  } 
