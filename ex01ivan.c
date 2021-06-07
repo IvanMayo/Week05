@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float p, r, h, Ab, V;
+float p, r, h, Ab, V, Atotal;
 
 int main(void){ 
 
@@ -9,6 +9,7 @@ int main(void){
     r=5;   
     h=7;   
     Ab= 2*p*r*h;
+    Atotal= (2*p*r*h)+(2*p*r*r);
     V= Ab*h;
 
 
@@ -18,4 +19,4 @@ int main(void){
 
  return 0;
 
-  } 
+  }
