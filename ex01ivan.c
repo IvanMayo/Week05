@@ -15,7 +15,7 @@ int main(void){
 
 
 
-  printf("The area of the cylinder is %.2f square units and the volume is %.2f cubic units" , Ab, V );
+  printf("The area of the cylinder is %.2f square units and the volume is %.2f cubic units" , Atotal, V );
 
  return 0;
 
