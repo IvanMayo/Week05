@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// this program converts seconds to a hours:minutes:seconds format
+// one hour equals yo 3600 seconds.    one minutes equals 60 seconds
 int main(void){ 
 
    int H, S, M, X;
