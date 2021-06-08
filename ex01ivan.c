@@ -1,6 +1,8 @@
 #include <stdio.h>
-
-float p, r, h, Ab, V, Atotal;
+// this program calculates the are and volume of a cylinder, the values are already designed
+// float is used instead of int because we have decimals in our data
+float p, r, h, Ab, V, Atotal;  
+// p is pie, r is radius, h, is height, Ab is area of the base, V is volume, Atotal is the total area of the cylinder 
 
 int main(void){ 
 
@@ -14,7 +16,7 @@ int main(void){
 
 
 
-
+// .2 refers to the amount of decimals you want to have
   printf("The area of the cylinder is %.2f square units and the volume is %.2f cubic units" , Atotal, V );
 
  return 0;
