@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// this program makes 10 operations but you have to input the initial value
 int main(void){
   float X,   Y;
   printf("inserte valor de x\n");
