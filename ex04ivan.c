@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// this one asks for 3 amounts of moeny that three people aport to buy something, the problems tells the percentaje of each one 
+
 int main(void){
   float isa, alic, pep, x, total, porisa, poralic, porpep;
   printf("dinero de isaac\n");
@@ -7,7 +9,7 @@ int main(void){
 
  printf("dinero de alice\n");
   scanf("%f",&alic);
-
+// scanf ("%input to be scan", &variable to asigned)
   printf("dinero de pepe\n");
   scanf("%f",&pep);
 
