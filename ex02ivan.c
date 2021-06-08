@@ -18,9 +18,9 @@ int main(void){
 
 
 
-    printf("segundos son %i\n ", S);
-    printf("minutos son %i\n", M);
-    printf("horas son %i\n", H);
+    printf("seconds are %i\n ", S);
+    printf("minutes are %i\n", M);
+    printf("hours are %i\n", H);
     return 0;
 
  } 
